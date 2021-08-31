@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # Run this app with `python app.py` and
-# visit http://127.0.0.1:8050/ in your web browser.
+# visit http://127.0.0.1:8080/ in your web browser.
 
 import dash
 import dash_core_components as dcc
@@ -90,7 +90,7 @@ def plot_bar(dfObj=None, theme=None, sumcheck_var=None):
 
 # -------------------------- LOAD DATA ---------------------------- 
 
-df = load_data(data_file='WRS Data 2000-2019 PIVOT Check version 20210827.csv')        
+df = load_data(data_file='irfdashboard/data/WRS Data 2000-2019 PIVOT Check version 20210827.csv')        
 print(df.sample(n=10))
 
 # -------------------------- DASH ---------------------------- #
